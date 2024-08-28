@@ -168,7 +168,8 @@ header .login li img {width: 20px;}
     margin-right: 100px;
 }
 .cont4 .subtit > div{
-    margin-right: 70px;
+    margin: 0 70px 0 70px;
+    width: 250px;
 }
 .cont4 .subtit > div:last-child {
     margin-right: 0;
@@ -176,7 +177,9 @@ header .login li img {width: 20px;}
 .cont4 .subtit img {
     width: 250px;
 }
-
+.cont4 .subtit div {
+    transform: translateY(-120px);
+}
 .cont4 .subtit p {
     font-size: 20px;
     text-align: center;
