@@ -76,6 +76,13 @@ header .login li img {width: 20px;}
     color: #aaa;
     font-size: 14px;
 }
+.cont1 .slidebtn{
+    display: flex;
+}
+.cont1 .slidebtn p {
+    margin: 5px;
+    transform: translateY(250%);
+}
 .cont1 .slide{display: flex; justify-content: center;}
 .cont1 .slide > div {
     width: 400px; height: 2px;
@@ -132,6 +139,13 @@ header .login li img {width: 20px;}
     font-size: 20px;
 }
 .cont3 p span {color: #aaa;}
+.cont3 .slidebtn{
+    display: flex;
+}
+.cont3 .slidebtn p {
+    margin: 5px;
+    transform: translateY(200%);
+}
 .cont3 .slide{display: flex; justify-content: center;}
 .cont3 .slide > div {
     width: 400px; height: 2px;
@@ -143,7 +157,7 @@ header .login li img {width: 20px;}
 .cont3 .slide > div.on{
     background-color: #000;
 }
-.cont4 {width: 100%; margin: 290px auto; position: relative;}
+.cont4 {width: 100%; margin: 290px auto 152px; position: relative;}
 .cont4 h5 {font-size: 20px; text-align: center; margin-top: 50px;}
 .cont4 p {font-size: 16px; text-align: center; padding: 10px;}
 .cont4 .more{
@@ -189,6 +203,19 @@ header .login li img {width: 20px;}
     color: #aaa;
 }
 footer{margin-top: 200px; background-color: #d9d9d9;}
+.ft_inner .sns {width: 100%; background-color: #5C5C5C;}
+.ft_inner .sns ul {
+    display: flex;
+    justify-content: right;
+    width: 1440px;
+    padding: 30px;
+}
+.ft_inner .sns ul li {
+    margin-right: 30px;
+}
+.ft_inner .sns ul li:last-child {
+    margin-right: 20px;
+}
 footer .ft_top {
     display: flex;
     justify-content: center;
@@ -209,6 +236,12 @@ footer .ft_top {
 .ft_menu{
     display: flex;
     justify-content: center;
+}
+.ft_menu p {
+    border-right: 1px solid #000;
+    margin-right: 5px;
+    padding-right: 5px;
+    letter-spacing: -1px;
 }
 .ft_bt {
     display: flex;
