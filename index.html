@@ -117,7 +117,15 @@
                 
             
             </div>
+        </div>
+        <div class="box">
+            <div class="left">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="right">
             <div class="swiper-scrollbar"></div>
+            </div>
         </div>
             <!-------swiper--- -->
         <!-- <ul class="cont1img">
@@ -246,7 +254,17 @@
                     </a>
                 </div>
             </div>
+            
             <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="box">
+            <div class="left">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="right">
+            <div class="swiper-scrollbar"></div>
+            </div>
         </div>
         <!-- <ul class="teafood">
             <li>
@@ -369,7 +387,11 @@
             slidesPerView: 4,
             spaceBetween: 10,
             scrollbar: {
-                el: '.cont1img .swiper-scrollbar',
+                el: '.cont1 .swiper-scrollbar',
+            },
+            navigation: {
+            nextEl: '.cont1.swiper-button-next',
+            prevEl: '.cont1 .swiper-button-prev',
             },
         })
         //------swiper2---------------------------------
@@ -379,7 +401,11 @@
             slidesPerView: 4,
             spaceBetween: 10,
             scrollbar: {
-                el: '.cont3img .swiper-scrollbar',
+                el: '.cont3 .swiper-scrollbar',
+            },
+            navigation: {
+            nextEl: '.cont3 .swiper-button-next',
+            prevEl: '.cont3 .swiper-button-prev',
             },
         })
     </script>
