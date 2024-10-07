@@ -30,6 +30,7 @@ header .gnb li {
     margin-left: 20px;
     font-size: 1.2em;
 }
+header .gnb li a:hover{font-weight: 700;}
 header .gnb li:first-child{margin-left: 60px;}
 header .login {display: flex; align-items: center;}
 header .login li {
@@ -46,14 +47,17 @@ header .login .lang {border: 0; outline: none;}
     /* background-color: aqua; */
 }
 .mainVisual .mainimg h2 {padding: 108px 0 35px;}
-.mainVisual .mainimg p {padding-bottom: 94px; color: #aaa;}
+.mainVisual .mainimg p {padding-bottom: 94px; color: #aaa; line-height: 1.5;}
 .mainVisual .mainimg a {
-    color: #5C5C5C;
-    border: 1px solid #5C5C5C;
+    color: #888;
+    border: 1px solid #888;
     padding: 10px;
     border-radius: 10px;
 }
-
+.mainVisual .mainimg a:hover{
+    background-color: #888;
+    color: #fff;
+}
 
 .cont1 {
     width: 1440px;
@@ -62,7 +66,7 @@ header .login .lang {border: 0; outline: none;}
 }
 .cont1 h2 {
     font-size: 24px;
-    padding: 20px;
+    padding: 0 0 20px;
     text-align: left;
 }
 .cont1 .c1tit {
@@ -70,13 +74,14 @@ header .login .lang {border: 0; outline: none;}
     justify-content: space-between;
     align-items: center;
 }
-.cont1 .c1tit a {font-size: 0.8em; color: #5C5C5C;}
+.cont1 .c1tit a {font-size: 0.8em; color: #888;}
+.cont1 .c1tit a:hover{font-weight: 700;}
 .cont1 ul{
     display: flex;
     justify-content: space-between;
 }
-.cont1 li img {width: 250px;}
-.cont1 li h3 {font-size: 18px;}
+.cont1 li img {width: 250px; display: inline-block;}
+.cont1 li h3 {font-size: 18px; margin-top: 10px;}
 .cont1 li p {
     font-size: 16px;
     line-height: 25px;
@@ -133,8 +138,10 @@ header .login .lang {border: 0; outline: none;}
     align-items: center;
     /* background-color: aqua; */
 }
-.cont3 .c3tit a {font-size: 0.8em; color: #5C5C5C;}
-
+.cont3 .c3tit a {font-size: 0.8em; color: #888;}
+.cont3 .c3tit a:hover{
+font-weight: 700;
+}
 .cont3 h5{
     font-size: 24px;
     text-align: left;
@@ -169,8 +176,8 @@ header .login .lang {border: 0; outline: none;}
     background-color: #000;
 }
 .cont4 {width: 100%; margin: 290px auto 152px; position: relative;}
-.cont4 h5 {font-size: 20px; text-align: center; margin-top: 50px;}
-.cont4 p {font-size: 16px; text-align: center; padding: 10px;}
+.cont4 h5 {font-size: 24px; text-align: center; margin-top: 50px;}
+.cont4 p {font-size: 16px; text-align: center; padding: 30px 0;}
 .cont4 .more{
     position: absolute;
     top: 30%;
@@ -186,6 +193,8 @@ header .login .lang {border: 0; outline: none;}
 .cont4 .more a{
     color: #fff;
 }
+.cont4 .more:hover{background-color: #fff; color: 888;}
+.cont4 .more:hover a{color: #888; font-weight: 700;}
 /* .cont4 .more img {
     
 } */
@@ -223,7 +232,7 @@ header .login .lang {border: 0; outline: none;}
     color: #aaa;
 }
 footer{margin-top: 200px; background-color: #d9d9d9;}
-.ft_inner .sns {width: 100%; background-color: #5C5C5C;}
+.ft_inner .sns {width: 100%; background-color: #888;}
 .ft_inner .sns ul {
     display: flex;
     justify-content: right;
@@ -249,9 +258,9 @@ footer .ft_top {
 .ft_top h5 {font-size: 20px;}
 .ft_top h6 {font-size: 18px;}
 .ft_top p {font-size: 16px; padding: 5px;}
-.ft_top .aaa{font-size: 14px; color: #aaa;}
+.ft_top .aaa{font-size: 14px; color: #888;}
 .ft3 li {padding: 5px;}
-.ft3 li a {font-size: 14px; color: #aaa;} 
+.ft3 li a {font-size: 14px; color: #888;} 
 .ft3 li:last-child a {padding-bottom: 0;} 
 
 .ft_menu{
@@ -272,5 +281,5 @@ justify-content: center;
 .ft_menu li {
     margin: 10px;
 }
-.ft_bt p {color: #aaa; margin-top: 30px; margin-left: 30px;}
-.ft_bt a {color: #aaa;}
+.ft_bt p {color: #888; margin-top: 30px; margin-left: 30px; line-height: 1.5;}
+.ft_bt a {color: #888;}
