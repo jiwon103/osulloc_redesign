@@ -40,7 +40,12 @@ header .login li {
 header .login li img {width: 20px;}
 header .login .lang {border: 0; outline: none;}
 
-.mainVisual {background: url(../img/MAIN.jpg) no-repeat; padding-top: 72px; height: 630px;}
+.mainVisual {
+    background: url(../img/main1.jpg) no-repeat; 
+    padding-top: 72px;
+    height: 630px;
+    transition: background-Image 1s;
+}
 .mainVisual .mainimg {
     width: 1440px;
     margin: 0 auto;

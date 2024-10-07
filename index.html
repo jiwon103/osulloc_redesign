@@ -47,7 +47,7 @@
     <section class="cont1">
         <div class="c1tit">
             <h2>주간 베스트</h2>
-            <a href="#">더보기></a>
+            <a href="#">더보기 ></a>
         </div>
         <ul class="cont1img">
             <li>
@@ -118,7 +118,7 @@
     <section class="cont3">
         <div class="c3tit">
             <h5>오설록만의 특별한 티 푸드</h5>
-            <a href="#">더보기></a>
+            <a href="#">더보기 ></a>
         </div>
         <ul class="teafood">
             <li>
@@ -224,5 +224,15 @@
         </div>
         </div>
     </footer>
+    <script>
+        const mainbg=document.querySelector('.mainVisual')
+        let bgIndex=0
+
+        setInterval(()=>{
+            mainbg.style.backgroundImage=`url(./img/main${bgIndex+1}.jpg)`
+            bgIndex++;
+            if(bgIndex>2) bgIndex=0
+        },2000)
+    </script>
 </body>
 </html>
