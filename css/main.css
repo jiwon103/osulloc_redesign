@@ -81,22 +81,22 @@ header .login .lang {border: 0; outline: none;}
 }
 .cont1 .c1tit a {font-size: 0.8em; color: #888;}
 .cont1 .c1tit a:hover{font-weight: 700;}
-.cont1 ul{
+.cont1 .cont1img{
     display: flex;
     justify-content: space-between;
 }
-.cont1 li img {width: 250px; display: inline-block;}
-.cont1 li h3 {font-size: 18px; margin-top: 10px;}
-.cont1 li p {
+.cont1 img {width: 100%;}
+.cont1 h3 {font-size: 18px; margin-top: 10px;}
+.cont1 p{
     font-size: 16px;
     line-height: 25px;
 }
-.cont1 li p span{
+.cont1 p span{
     text-decoration-line: line-through;
     color: #aaa;
     font-size: 14px;
 }
-.cont1 .slidebtn{
+/* .cont1 .slidebtn{
     display: flex;
 }
 .cont1 .slidebtn p {
@@ -113,7 +113,7 @@ header .login .lang {border: 0; outline: none;}
 }
 .cont1 .slide > div.on{
     background-color: #000;
-}
+} */
 .cont2 {
     width: 100%;
     display: flex;
@@ -153,7 +153,7 @@ font-weight: 700;
     padding: 20px;
 }
 
-.cont3 ul {
+.cont3 div{
     display: flex;
     justify-content: space-between;
 }
@@ -162,7 +162,7 @@ font-weight: 700;
     line-height: 30px;
 }
 .cont3 p span {color: #aaa;}
-.cont3 .slidebtn{
+/* .cont3 .slidebtn{
     display: flex;
 }
 .cont3 .slidebtn p {
@@ -179,7 +179,7 @@ font-weight: 700;
 }
 .cont3 .slide > div.on{
     background-color: #000;
-}
+} */
 .cont4 {width: 100%; margin: 290px auto 152px; position: relative;}
 .cont4 h5 {font-size: 24px; text-align: center; margin-top: 50px;}
 .cont4 p {font-size: 16px; text-align: center; padding: 30px 0;}
