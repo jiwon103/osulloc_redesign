@@ -37,6 +37,7 @@ header .login li {
     font-size: 0.8em;
     margin-left: 15px;
 }
+header .login li a {font-size: 16px;}
 header .login li img {width: 20px;}
 header .login .lang {border: 0; outline: none;}
 
@@ -79,7 +80,7 @@ header .login .lang {border: 0; outline: none;}
     justify-content: space-between;
     align-items: center;
 }
-.cont1 .c1tit a {font-size: 0.8em; color: #888;}
+.cont1 .c1tit a {font-size: 0.9em; color: #888;}
 .cont1 .c1tit a:hover{font-weight: 700;}
 .cont1 .cont1img{
     display: flex;
@@ -152,14 +153,14 @@ header .login .lang {border: 0; outline: none;}
     align-items: center;
     /* background-color: aqua; */
 }
-.cont3 .c3tit a {font-size: 0.8em; color: #888;}
+.cont3 .c3tit a {font-size: 0.9em; color: #888;}
 .cont3 .c3tit a:hover{
 font-weight: 700;
 }
 .cont3 h5{
     font-size: 24px;
     text-align: left;
-    padding: 20px;
+    padding: 0 0 20px;
 }
 
 .cont3 div{}
@@ -172,13 +173,16 @@ font-weight: 700;
 .cont3 .c3box .left .swiper-button-next {
     transform: scale(0.3); top: -5px; color: #888; font-weight: 700;
 }
-.cont3 .c3box .right {width: 95%; position: relative;}
+.cont3 .c3box .right {
+    width: 95%; height:10px;
+    position: relative;
+}
 
-.cont3 p {
+/* .cont3 p {
     font-size: 20px;
     line-height: 30px;
 }
-.cont3 p span {color: #aaa;}
+.cont3 p span {color: #aaa;} */
 /* .cont3 .slidebtn{
     display: flex;
 }
@@ -263,7 +267,7 @@ footer{/* margin-top: 50px; */ background-color: #d9d9d9;}
     /* background-color: #000; */
 }
 .ft_inner .sns ul li {
-    margin: 30px 30px;
+    margin-left: 10px;  padding: 10px 0;
 }
 .ft_inner .sns ul li:last-child {
     margin-right: 0;
