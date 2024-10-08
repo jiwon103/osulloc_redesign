@@ -138,13 +138,14 @@ header .login .lang {border: 0; outline: none;}
 .cont2 .ct2_1 .ct2iner p {
     padding: 18px 0 42px;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 1.7;
 }
 .cont2 .ct2_1 .ct2iner2 {position: absolute; top: 20%; left: 55%; color:#fff;}
 .cont2 .ct2_1 .ct2iner2 h4 {font-size: 36px; color: #fff; font-weight: bold;}
 .cont2 .ct2_1 .ct2iner2 p {
     padding: 18px 0 42px;
     font-size: 18px; color: #fff;
+    line-height: 1.7;
 }
 .cont3 {width: 1440px; margin: 0 auto; padding: 20px; }
 .cont3 .c3tit {
@@ -171,18 +172,18 @@ font-weight: 700;
 .cont3 .c3box .left {width: 5%; position: relative;}
 .cont3 .c3box .left .swiper-button-prev,
 .cont3 .c3box .left .swiper-button-next {
-    transform: scale(0.3); top: -5px; color: #888; font-weight: 700;
+    transform: scale(0.3); top: -1px; color: #888; font-weight: 700;
 }
 .cont3 .c3box .right {
     width: 95%; height:10px;
     position: relative;
 }
 
-/* .cont3 p {
+.cont3 p {
     font-size: 20px;
     line-height: 30px;
 }
-.cont3 p span {color: #aaa;} */
+/* .cont3 p span {color: #aaa;} */
 /* .cont3 .slidebtn{
     display: flex;
 }
