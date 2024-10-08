@@ -147,7 +147,7 @@ header .login .lang {border: 0; outline: none;}
     font-size: 18px; color: #fff;
     line-height: 1.7;
 }
-.cont3 {width: 1440px; margin: 0 auto; padding: 20px; }
+.cont3 {width: 1440px; margin: 150px auto; padding: 20px; }
 .cont3 .c3tit {
     display: flex;
     justify-content: space-between;
@@ -202,7 +202,7 @@ font-weight: 700;
 .cont3 .slide > div.on{
     background-color: #000;
 } */
-.cont4 {width: 100%; margin: 290px auto 50px; position: relative;}
+.cont4 {width: 100%; margin: 100px auto 50px; position: relative;}
 .cont4 h5 {font-size: 24px; text-align: center; margin-top: 50px;}
 .cont4 p {font-size: 16px; text-align: center; padding: 30px 0;}
 .cont4 .more{
@@ -282,10 +282,11 @@ footer .ft_top {
     margin: 50px;
 }
 
-.ft_top h5 {font-size: 20px;}
-.ft_top h6 {font-size: 18px;}
+.ft_top h5 {font-size: 20px; margin-bottom: 10px;}
+.ft_top h6 {font-size: 18px; margin-bottom: 10px;}
 .ft_top p {font-size: 16px; padding: 5px;}
 .ft_top .aaa{font-size: 14px; color: #888;}
+.ft1 p {line-height: 1.4;}
 .ft3 li {padding: 5px;}
 .ft3 li a {font-size: 14px; color: #888;} 
 .ft3 li:last-child a {padding-bottom: 0;} 
